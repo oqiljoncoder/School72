@@ -1,5 +1,6 @@
-<script setup></script>
-
-<template></template>
-
-<style></style>
+<script setup>
+import { NButton } from "naive-ui";
+</script>
+<template>
+  <n-button>naive-ui</n-button>
+</template>
