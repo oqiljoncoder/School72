@@ -4,4 +4,5 @@ import { NButton } from "naive-ui";
 <template>
   <n-button>naive-ui</n-button>
   <n-button type="error">error</n-button>
+  <n-button type="tertiary">tertiary</n-button>
 </template>
