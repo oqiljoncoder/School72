@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sass": "sass scss/main.scss src/assets/main.css -w",
+    "start": "npm-run-all --parallel sass dev"
   },
   "dependencies": {
     "vue": "^3.4.29",
@@ -16,6 +18,7 @@
     "@vitejs/plugin-vue": "^5.0.5",
     "bootstrap": "^5.3.3",
     "naive-ui": "^2.39.0",
+    "sass": "^1.77.8",
     "vite": "^5.3.1"
   }
 }
