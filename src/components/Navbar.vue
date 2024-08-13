@@ -1,6 +1,6 @@
 <template>
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
+      <div class="container-fluid">
          <div class="navbar-logo">
             <router-link class="navbar-brand fw-bold text-success" to="/">School 72</router-link>
          </div>
@@ -17,7 +17,7 @@
                   <router-link class="nav-link" to="/articles">Maqolalar</router-link>
                </li>
                <li class="nav-item">
-                  <router-link class="nav-link" to="/articles">Bizning faxrimiz </router-link>
+                  <a class="nav-link" href="#meetwith">Bizning faxrimiz </a>
                </li>
                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
@@ -41,3 +41,9 @@
 
 <script setup>
 </script>
+
+<style scoped>
+.navbar-brand {
+   font-size: 2rem;
+}
+</style>
