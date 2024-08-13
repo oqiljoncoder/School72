@@ -1,6 +1,7 @@
 <script setup>
+
 </script>
 
 <template>
-   <h1>vue js</h1>
+   
 </template>
