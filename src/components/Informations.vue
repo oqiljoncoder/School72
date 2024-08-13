@@ -2,7 +2,7 @@
 </script>
 <template>
    <div class="container-fluid mt-5">
-      <div class="informations w-100 h-25 bottom-0 d-flex gap-2 align-items-center justify-content-around">
+      <div class="informations w-100 h-25 bottom-0 d-flex gap-2 align-items-center justify-content-around flex-wrap">
          <div class="d-flex gap-2">
             <img class="information-img" src="../assets/teachers.png" alt="Teachers Logo">
             <div class="titles">
