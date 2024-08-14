@@ -11,7 +11,7 @@
             <p class="header-subtitle text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, quas?</p>
             <!-- the main button comes from the backend -->
             <a class=" header-btn btn btn-primary">Darslarni boshlash</a>
-            
+
          </div>
       </header>
    </div>
@@ -133,6 +133,11 @@ header {
    }
 }
 
+@media (max-width:321px) {
+   header {
+      height: 10rem;
+   }
+}
 
 
 .titles>h1 {
